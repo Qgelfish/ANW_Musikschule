@@ -36,5 +36,5 @@ export class Settings {
     /**
      * Date, this server was last updated on
      * */
-    public static readonly SERVER_LAST_UPDATE: string = "2019-06-20";
+    public static readonly SERVER_LAST_UPDATE: string = "2019-06-21";
 }

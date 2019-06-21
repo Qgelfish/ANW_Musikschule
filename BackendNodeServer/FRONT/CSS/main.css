@@ -1,0 +1,19 @@
+﻿body {
+    background-image: url("back.jpg");
+    background-repeat: repeat;
+    font: 13px Helvetica, Arial;
+}
+
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    color: lightpink;
+}
+
+p {
+    color: white;
+    text-align: center
+}

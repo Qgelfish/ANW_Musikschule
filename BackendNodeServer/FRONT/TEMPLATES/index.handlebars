@@ -1,11 +1,66 @@
-{{> header}}
+<a id="home"></a>
+<header>
+        <div class="logo-container">
+            <img class="logo" src="ASSETS/IMAGES/Logo_tr.png" />
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#courses">Kurse</a></li>
+                <li><a class="nav-link" href="#teachers">Lehrer</a></li>
+                <li><a class="nav-link" href="#prices">Preise</a></li>
+                <li><a class="nav-link" href="#contact">Kontakt</a></li>
+                <li><a class="nav-link last-link" href="#legalNotice">Impressum</a></li>
+            </ul>
+        </nav>
+        <div class="login-container">
+            <!-- placeholder until login works -->
+            <a href="/user">
+            <button id="loginButton" class="login-button">Anmelden</button>
+            </a>
+        </div>
+</header>
 <main>
     <div class="sidebar"></div>
     <div class="page-content">
-        {{> content}}
-        {{> courses}}
-        {{> teachers}}
-        {{> prices}}
+        <div class="content">
+            <h1> Willkommen bei READY 4 STAGE </h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <a id="courses"></a>
+        <div class="content">
+            <h1> Kurse </h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <a id="teachers"></a>
+        <div class="content">
+            <h1> Lehrer </h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <a id="prices"></a>
+        <div class="content">
+            <h1> Preise </h1>
+            <p>Für Alle, die sich schon entschieden haben, ein festes Ziel vor Augen haben oder sich auf ein Musikstudium vorbereiten:<br>
+                    wöchentlicher Unterricht (2 x 30 Minuten Einzelunterricht oder 1 x 60 Minuten Gruppe/Band).<br>
+                    <b><u>Schüler/Studenten/Azubis</u><br>
+                    Preis: 79,-- EUR</b> (Laufzeit 6 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b>Preis: 72,-- EUR</b> (Laufzeit 12 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b><u>Erwachsene:<br></u>
+                    Preis: 89,-- EUR</b> (Laufzeit 6 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b>Preis: 82,-- EUR</b> (Laufzeit 12 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b><u>Musikalische Früherziehung</u><br>
+                    Preis: 35,-- EUR</b> (wöchentlich 45 Minuten, Laufzeit 6 Monate)<br>
+                    Alle angegebenen Preise sind Endpreise <b>pro Monat</b>     
+            </p>
+        </div>
         {{> contact}}
         {{> legal}}
     </div>

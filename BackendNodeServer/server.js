@@ -10,8 +10,10 @@ const expresshbs = require("express-handlebars");
 let app = pack_express();
 let http = pack_http.createServer(app);
 let io = pack_io(http);
-app.use(pack_express.static("FRONT"));
-app.use(pack_express.static("FRONT/CSS"));
+app.use(pack_express.static("FRONT/ASSETS"));
+app.use(pack_express.static("FRONT/ASSETS/CSS"));
+app.use(pack_express.static("FRONT/ASSETS/SCRIPTS"));
+app.use(pack_express.static("FRONT/ASSETS/IMAGES"));
 app.use(pack_express.static("TEST"));
 app.engine('handlebars', expresshbs({
     defaultLayout: 'layout',
@@ -23,6 +25,9 @@ app.set('views', __dirname + '/FRONT/TEMPLATES/')
 app.get("/", (req, res) => {
     res.render('index');
 });
+app.get("/user", (req, res) => {
+    res.render('user');
+})
 app.get("/test", (req, res) => {
     res.sendFile(__dirname + "/TEST/test.html");
 });

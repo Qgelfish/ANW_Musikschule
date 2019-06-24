@@ -1,6 +1,7 @@
 ﻿import pack_express = require("express");
 import pack_http = require("http");
 import pack_io = require("socket.io");
+import expresshbs = require("express-handlebars");
 import { Utility } from "./BACK/Utility/utility";
 import { SQLHandler } from "./BACK/Utility/sqlhandler";
 import { Settings } from "./BACK/Settings/settings";
@@ -9,13 +10,22 @@ let app = pack_express();
 let http = pack_http.createServer(app);
 let io = pack_io(http);
 
-app.use(pack_express.static("FRONT"));
 app.use(pack_express.static("FRONT/ASSETS"));
+app.use(pack_express.static("FRONT/ASSETS/CSS"));
 app.use(pack_express.static("TEST"));
 
+app.engine('handlebars', expresshbs({
+    defaultLayout: 'layout',
+    layoutsDir: __dirname + '/FRONT/TEMPLATES/LAYOUTS'
+}));
+
+app.set('view engine', 'handlebars');
+app.set('views', __dirname + '/FRONT/TEMPLATES/')
+
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/FRONT/index.html");
+    res.render('index');
 });
+
 app.get("/test", (req, res) => {
     res.sendFile(__dirname + "/TEST/test.html");
 });

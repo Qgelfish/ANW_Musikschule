@@ -1,0 +1,52 @@
+<script src="ASSETS/SCRIPTS/script.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+
+    $(function () {
+        let socket = io();
+
+        //let queryObj = new Object();
+        //queryObj.method = "SELECT";
+        //queryObj.procedure = "SP_GetTeacherByFirstname";
+        //queryObj.param = {};
+        //queryObj.param.firstname = "Volker";
+
+        //let queryObj = new Object();
+        //queryObj.method = "LOGIN";
+        //queryObj.procedure = "SP_LoginGetSalt";
+        //queryObj.param = {};
+        //queryObj.param.username = "Hansi123";
+
+        let queryObj = new Object();
+        queryObj.method = "LOGIN";
+        queryObj.procedure = "SP_LoginAuth";
+        queryObj.param = {};
+        queryObj.param.username = "Capt.Pie";
+        queryObj.param.hashed_password = "123";
+
+        socket.emit("reqDBCall", JSON.stringify(queryObj));
+
+        socket.on("resDBCall", function (msg) {
+            let obj = JSON.parse(msg);
+            console.log(msg);
+            console.log(obj);
+
+            for (let i = 0; i < obj.error.length; i++){
+                document.getElementById("result_error").innerHTML += "\n" + obj.error[i].name;
+                document.getElementById("result_error").innerHTML += "\n" + obj.error[i].level;
+                document.getElementById("result_error").innerHTML += "\n" + obj.error[i].occurrence;
+                document.getElementById("result_error").innerHTML += "<br/>";
+            }
+
+            for (let i = 0; i < obj.response.length; i++){
+                document.getElementById("result_response").innerHTML += "\n" + obj.response[i].firstname;
+                document.getElementById("result_response").innerHTML += "\n" + obj.response[i].surname;
+                document.getElementById("result_response").innerHTML += "\n" + obj.response[i].birthdate;
+                document.getElementById("result_response").innerHTML += "<br/>";
+            }
+        });
+
+        //make method to create request json
+    });
+</script>

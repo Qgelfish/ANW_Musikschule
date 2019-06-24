@@ -6,14 +6,22 @@ const pack_io = require("socket.io");
 const utility_1 = require("./BACK/Utility/utility");
 const sqlhandler_1 = require("./BACK/Utility/sqlhandler");
 const settings_1 = require("./BACK/Settings/settings");
+const expresshbs = require("express-handlebars");
 let app = pack_express();
 let http = pack_http.createServer(app);
 let io = pack_io(http);
 app.use(pack_express.static("FRONT"));
 app.use(pack_express.static("FRONT/CSS"));
 app.use(pack_express.static("TEST"));
+app.engine('handlebars', expresshbs({
+    defaultLayout: 'layout',
+    layoutsDir: __dirname + '/FRONT/TEMPLATES/LAYOUTS'
+}));
+app.set('view engine', 'handlebars');
+app.set('views', __dirname + '/FRONT/TEMPLATES/')
+
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/FRONT/index.html");
+    res.render('index');
 });
 app.get("/test", (req, res) => {
     res.sendFile(__dirname + "/TEST/test.html");

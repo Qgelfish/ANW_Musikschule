@@ -11,12 +11,12 @@ export class Settings {
     /**
      * Username being used for SQL Connection
      * */
-    public static readonly SQL_USER: string = "root";
+    public static readonly SQL_USER: string = "visitor";
 
     /**
      * Password being used for SQL Connection
      * */
-    public static readonly SQL_PASS: string = "";
+    public static readonly SQL_PASS: string = "123";
 
     /**
      * Database being used by SQL Connection
@@ -31,10 +31,10 @@ export class Settings {
     /**
      * Development Version of this server
      * */
-    public static readonly SERVER_VERSION: string = "0.4.0";
+    public static readonly SERVER_VERSION: string = "0.4.1";
 
     /**
      * Date, this server was last updated on
      * */
-    public static readonly SERVER_LAST_UPDATE: string = "2019-06-21";
+    public static readonly SERVER_LAST_UPDATE: string = "2019-06-24";
 }

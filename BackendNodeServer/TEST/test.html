@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Node Server</title>
+    <script src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+</html>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+
+    let socket = io();
+
+    QUnit.test("SQL Requests", function (assert) {
+        let done_SPLoginGetSalt = assert.async();
+        DBCallSimulator("SP_LoginGetSalt", { "username": "Capt.Pie" }).then(function (value) {
+            assert.ok(JSON.parse(value).error.length == 0, "Testing, if 'SP_LoginGetSalt' returns 0 errors.");
+            done_SPLoginGetSalt();
+        });
+
+        let done_SPLoginAuth = assert.async();
+        DBCallSimulator("SP_LoginAuth", { "username": "Capt.Pie", "hashed_password": "123" }).then(function (value) {
+            assert.ok(JSON.parse(value).error.length == 0, "Testing, if 'SP_LoginAuth' returns 0 errors.");
+            done_SPLoginAuth();
+        });
+    });
+
+    async function DBCallSimulator(procedure, param) {
+        let jsonresult = await new Promise(function (resolve, reject) {
+            let queryObj = new Object();
+            queryObj.method = "";
+            queryObj.procedure = procedure;
+            queryObj.param = {};
+
+            if (param != undefined) {
+                for (let key in param) {
+                    queryObj.param[key] = param[key];
+                }
+            }
+
+            socket.emit("reqDBCall", JSON.stringify(queryObj));
+
+            socket.on("resDBCall", function (msg) {
+                resolve(msg);
+            })
+
+        });
+
+        return jsonresult;
+    }
+</script>

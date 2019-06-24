@@ -1,4 +1,5 @@
 ﻿import pack_colors = require("colors/safe");
+import fs = require("fs");
 
 /**
  * Contains helper methods
@@ -24,6 +25,11 @@ export class Utility {
     }
 
     /**
+     * FileStream to log into a logfile
+     * */
+    private static readonly LOG_FILE: fs.WriteStream = fs.createWriteStream("log.txt", {flags: "a"});
+
+    /**
      * Writes something to the console
      * @param msg The message being written
      * @param level The severity of the message
@@ -44,12 +50,16 @@ export class Utility {
 
     /**
      * Writes something to the console and returns a status object
+     * Does also write to the log file
      * @param code the status code
      * @param occurrence occurrence of the call
      * @param param optional parameter, appended to the message
      */
     public static makeStatusObjectAndConsole(code: string, occurrence: string, param?: string): string {
-        this.write("[" + code + "] " + this.STATUS_CODES[code][1] + (param != undefined ? param : ""), this.STATUS_CODES[code][0]);
+        let output = "[" + code + "] " + this.STATUS_CODES[code][1] + (param != undefined ? param : "");
+
+        this.write(output, this.STATUS_CODES[code][0]);
+        this.LOG_FILE.write("[" + (new Date()).toISOString() + "] " + output + "\n");
 
         return this.makeStatusObject(code, occurrence);
     }

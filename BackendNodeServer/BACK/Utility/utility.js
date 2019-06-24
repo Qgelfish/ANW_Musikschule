@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const pack_colors = require("colors/safe");
+const fs = require("fs");
 /**
  * Contains helper methods
  * */
@@ -29,12 +30,15 @@ class Utility {
     }
     /**
      * Writes something to the console and returns a status object
+     * Does also write to the log file
      * @param code the status code
      * @param occurrence occurrence of the call
      * @param param optional parameter, appended to the message
      */
     static makeStatusObjectAndConsole(code, occurrence, param) {
-        this.write("[" + code + "] " + this.STATUS_CODES[code][1] + (param != undefined ? param : ""), this.STATUS_CODES[code][0]);
+        let output = "[" + code + "] " + this.STATUS_CODES[code][1] + (param != undefined ? param : "");
+        this.write(output, this.STATUS_CODES[code][0]);
+        this.LOG_FILE.write("[" + (new Date()).toISOString() + "] " + output + "\n");
         return this.makeStatusObject(code, occurrence);
     }
     /**
@@ -68,5 +72,9 @@ Utility.STATUS_CODES = {
     "4-01": ["ERROR", "MySQL Service is not available!"],
     "4-02": ["ERROR", "Bad SQL Query!"]
 };
+/**
+ * FileStream to log into a logfile
+ * */
+Utility.LOG_FILE = fs.createWriteStream("log.txt", { flags: "a" });
 exports.Utility = Utility;
 //# sourceMappingURL=utility.js.map

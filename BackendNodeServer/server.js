@@ -11,8 +11,12 @@ let http = pack_http.createServer(app);
 let io = pack_io(http);
 app.use(pack_express.static("FRONT"));
 app.use(pack_express.static("FRONT/CSS"));
+app.use(pack_express.static("TEST"));
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/FRONT/index.html");
+});
+app.get("/test", (req, res) => {
+    res.sendFile(__dirname + "/TEST/test.html");
 });
 io.on("connection", (socket) => {
     utility_1.Utility.makeStatusObjectAndConsole("1-01", "Server");

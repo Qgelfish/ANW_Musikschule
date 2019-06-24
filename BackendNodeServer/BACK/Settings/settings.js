@@ -32,6 +32,6 @@ Settings.SERVER_VERSION = "0.4.0";
 /**
  * Date, this server was last updated on
  * */
-Settings.SERVER_LAST_UPDATE = "2019-06-20";
+Settings.SERVER_LAST_UPDATE = "2019-06-21";
 exports.Settings = Settings;
 //# sourceMappingURL=settings.js.map

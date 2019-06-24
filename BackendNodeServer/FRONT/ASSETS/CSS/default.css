@@ -1,0 +1,343 @@
+header {
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    left: 10%;
+    margin-bottom: 20vh;
+}
+
+.logo-container, nav, .login-container, .nav-links, main {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    height: 25vh;
+    left: 2.5%;
+    position: absolute;
+    top: 10px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    font-size: 16px;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-link {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid white;
+    border-right: none;
+    color: orange;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.last-link {
+    border-right: 1px solid white;
+}
+
+.login-container {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.login-button {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: orange;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    padding: 5px 25px;
+}
+
+.login-button:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.page-content {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    flex: 4;
+    padding: 5px 15px;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.content:last-of-type {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    display: none;
+    font-weight: 500;
+    height: 30px;
+    left: 50%;
+    padding: 5px 0 0 0;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, 0);
+    width: 55%;
+}
+
+.sticky {
+    display: flex;
+}
+
+.home-link {
+    color: orange;
+    text-decoration: none;
+    width: 100%;
+}
+
+.contract-formular {
+    border: 1px solid white;
+    margin-bottom: 250px;
+    padding: 5px;
+}
+
+.legal-info {
+    font-size: 14px;
+}
+
+.page-container {
+    background: url(https://ehrenfelder-musikschule.de/wp-content/uploads/2015/04/ehrenfelder-musikschule-k%C3%B6ln.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    box-shadow: rgba(51,51,51,1)0 0 25px;
+    box-sizing: initial;
+    color: white;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 5px 15px;
+    position: relative;
+    width: 80%;
+}
+
+/* Modal */
+
+.login-modal {
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background-color: rgba(255,165,0,0.9);
+    border-radius: 15px;
+    border: 1px solid #888;
+    color: white;
+    margin: 5% auto 15%;
+    max-width: 333px;
+    padding: 16px;
+    position: relative;
+    width: 80%;
+  }
+  
+  .close-modal {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    right: 16px;
+    top: 0;
+  }
+  
+  .close-modal:hover,
+  .close-modal:focus {
+    cursor: pointer;
+  }
+  
+  .animate {
+    animation: animatezoom 0.6s;
+  }
+  
+  @keyframes animatezoom {
+    from { transform: scale(0) }
+    to { transform: scale(1) }
+  }
+  
+  .form-element {
+    border:1px solid #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+  }
+  
+  .form-button {
+    background-color: rgb(22, 104, 2);;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Helper */
+
+  .--orange {
+    background-color: orange;
+}
+
+@media screen and (max-width: 1800px) {
+    .page-container {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .login-container {
+        padding-right: 30px;
+    }
+
+    .page-content {
+        flex: 10;
+    }
+
+    footer {
+        border-radius: 0;
+        padding: 5px 0;
+        text-align: center;
+        width: 85%;
+    }
+
+    .home-link {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .page-container {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .page-container:before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: url(photos/2452.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    header {
+        flex-direction: column;
+        height: initial;
+        margin: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        align-self: stretch;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links > li {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .login-container {
+        align-self: stretch;
+        padding: 0;
+    }
+
+    .login-button {
+        border-radius: 0;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .sidebar {
+        flex: 0;
+    }
+
+    .page-content {
+        border-radius: 0;
+    }
+
+    footer {
+        border-radius: 0;
+        padding: 5px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .home-link {
+        width: 100%;
+    }
+
+    .modal-content {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .close-modal {
+        font-size: 50px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background: url('../images/r4sBackground.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+}

@@ -3,18 +3,148 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Node Server</title>
-    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+    <title>ready4stage</title>
+    <link rel="stylesheet" type="text/css" href="ASSETS/CSS/default.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    <h1>It works!</h1>
-    <h3>Response</h3>
-    <p id="result_response">None</p>
-    <h3>Error</h3>
-    <p id="result_error">None</p>
+    <div class="page-container">
+        <a id="home"></a>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="assets/images/Logo_tr.png" />
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#courses">Kurse</a></li>
+                <li><a class="nav-link" href="#teachers">Lehrer</a></li>
+                <li><a class="nav-link" href="#prices">Preise</a></li>
+                <li><a class="nav-link" href="#contact">Kontakt</a></li>
+                <li><a class="nav-link last-link" href="#legalNotice">Impressum</a></li>
+            </ul>
+        </nav>
+        <div class="login-container">
+            <button id="loginButton" class="login-button">Anmelden</button>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar"></div>
+        <div class="page-content">
+            <div class="content">
+                <h1> Willkommen bei READY 4 STAGE </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <a id="courses"></a>
+            <div class="content">
+                <h1> Kurse </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <a id="teachers"></a>
+            <div class="content">
+                <h1> Lehrer </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <a id="prices"></a>
+            <div class="content">
+                <h1> Preise </h1>
+                <p>Für Alle, die sich schon entschieden haben, ein festes Ziel vor Augen haben oder sich auf ein Musikstudium vorbereiten:<br>
+                    wöchentlicher Unterricht (2 x 30 Minuten Einzelunterricht oder 1 x 60 Minuten Gruppe/Band).<br>
+                    <b><u>Schüler/Studenten/Azubis</u><br>
+                    Preis: 79,-- EUR</b> (Laufzeit 6 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b>Preis: 72,-- EUR</b> (Laufzeit 12 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b><u>Erwachsene:<br></u>
+                    Preis: 89,-- EUR</b> (Laufzeit 6 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b>Preis: 82,-- EUR</b> (Laufzeit 12 Monate mit 2-monatiger Kündigungsfrist)<br>
+                    <b><u>Musikalische Früherziehung</u><br>
+                    Preis: 35,-- EUR</b> (wöchentlich 45 Minuten, Laufzeit 6 Monate)<br>
+                    Alle angegebenen Preise sind Endpreise <b>pro Monat</b>     
+                </p>
+            </div>
+            <a id="contact"></a>
+            <div class="content">
+                <h1> Kontakt </h1>
+                <div class="contract-container">
+                    <h3>Aufnahmeantrag</h3>
+                    <div class="contract-formular-container">
+                        <form class="contract-formular">
+                            <label for="username">Benutzername:</label>
+                            <input class="form-element" type="text" placeholder="Benutzernamen eingeben" name="username" required>
+                            <label for="surname">Name:</label>
+                            <input class="form-element" type="text" placeholder="Namen eingeben" name="surname" required>
+                            <label for="name">Vorname:</label>
+                            <input class="form-element" type="text" placeholder="Vornamen eingeben" name="name" required>
+                            <label for="birthdate">Geb.-Datum:</label>
+                            <input class="form-element" type="text" placeholder="Geburtsdatum eingeben" name="birthdate" required>
+                            <label for="birthplace">Geburtsort:</label>
+                            <input class="form-element" type="text" placeholder="Geburtsort eingeben" name="birthplace" required>
+                            <label for="plz">Postleitzahl:</label>
+                            <input class="form-element" type="number" placeholder="Postleitzahl eingeben" name="plz" required>
+                            <label for="city">Wohnort:</label>
+                            <input class="form-element" type="text" placeholder="Wohnort eingeben" name="city" required>
+                            <label for="street">Straße:</label>
+                            <input class="form-element" type="text" placeholder="Straße eingeben" name="street" required>
+                            <label for="phoneno">Telefon:</label>
+                            <input class="form-element" type="text" placeholder="Telefonnummer eingeben" name="phoneno" required>
+                            <label for="email">Email:</label>
+                            <input class="form-element" type="email" placeholder="Email eingeben" name="email" required>
+                            <label for="info">Gewünschter Unterricht:</label>
+                            <input class="form-element" type="text" placeholder="Gewünschten Unterricht eingeben" name="info" required>
+                            <p class="legal-info"> Für die Zahlung der Monatsbeiträge ist grundsätzlich das Bankeinzugsverfahren vorgesehen.<br>
+                            Die Abbuchung erfolgt jeweils am dritten Tag des jeweiligen Monats.<br></p>
+                            <h3><b>Meine Bankverbindung:</b></h3>
+                                <label for="nameOfBank">Name der Bank:</label>
+                                <input class="form-element" type="text" placeholder="Banknamen eingeben" name="nameOfBank" required>
+                                <label for="BLZ">BLZ:</label>
+                                <input class="form-element" type="number" placeholder="Bankleitzahl eingeben" name="BLZ" required>
+                                <label for="accountNo">Konto-Nr.:</label>
+                                <input class="form-element" type="number" placeholder="Kontonummer eingeben" name="accountNo" required>
+                                <button class="form-element form-button --orange" type="submit">Abschicken</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <a id="legalNotice"></a>
+            <div class="content">
+                <h1> Impressum </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+        <div class="sidebar"></div>
+    </main>
+    <footer id="stickyFooter"><a id="homeLink" class="home-link" href="#home">Startseite</a></footer>
+    </div>
+
+    <!-- Modal Anfang -->
+    <div id="loginModal" class="login-modal">
+        <form class="modal-content animate" action="/login">
+            <div class="modal-content-container">
+                <span id="closeModal" class="close-modal">&times;</span>
+                <label for="username">Benutzername</label>
+                <input class="form-element" type="text" placeholder="Benutzername eingeben" name="username" required>
+                <label for="password">Passwort</label>
+                <input class="form-element" type="password" placeholder="Passwort eingeben" name="password" required>
+                <button class="form-element form-button" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <!-- Modal Ende -->
 </body>
 </html>
 
+<script src="ASSETS/SCRIPTS/script.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
 <script>

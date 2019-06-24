@@ -66,6 +66,7 @@ nav {
     font-weight: 500;
     outline: none;
     padding: 5px 25px;
+    text-decoration: none;
 }
 
 .login-button:hover {
@@ -296,6 +297,7 @@ footer {
     .login-button {
         border-radius: 0;
         padding: 10px 0;
+        text-align: center;
         width: 100%;
     }
 

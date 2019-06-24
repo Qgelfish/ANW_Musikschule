@@ -10,10 +10,7 @@ let app = pack_express();
 let http = pack_http.createServer(app);
 let io = pack_io(http);
 
-app.use(pack_express.static("FRONT/ASSETS"));
-app.use(pack_express.static("FRONT/ASSETS/CSS"));
-app.use(pack_express.static("FRONT/ASSETS/SCRIPTS"));
-app.use(pack_express.static("FRONT/ASSETS/IMAGES"));
+app.use(pack_express.static("FRONT"));
 app.use(pack_express.static("TEST"));
 
 app.engine('handlebars', expresshbs({

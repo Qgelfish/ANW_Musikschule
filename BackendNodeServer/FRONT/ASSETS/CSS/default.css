@@ -21,6 +21,17 @@ header {
     top: 10px;
 }
 
+.user-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 1rem;
+}
+
+.user-logo {
+    border: 2px solid green;
+    height: 15vh;
+}
+
 nav {
     flex: 2;
 }

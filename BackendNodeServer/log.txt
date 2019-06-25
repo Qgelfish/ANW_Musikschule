@@ -1,0 +1,1005 @@
+[2019-06-24T18:09:03.386Z] [2-02] Listening on Port: 4711
+[2019-06-24T18:09:03.387Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T18:09:04.477Z] [3-01] MySQL Service is Offline!
+[2019-06-24T18:09:15.345Z] [1-01] Client Connected!
+[2019-06-24T18:09:16.373Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:09:16.374Z] [4-02] Bad SQL Query!
+[2019-06-24T18:09:16.374Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:09:16.374Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:11:13.871Z] [1-02] Client Disconnected!
+[2019-06-24T18:11:14.016Z] [1-01] Client Connected!
+[2019-06-24T18:11:15.234Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:11:15.234Z] [4-02] Bad SQL Query!
+[2019-06-24T18:11:15.234Z] [1-03] INCOMING REQUEST : {"method":"","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:11:15.234Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:11:15.235Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:11:15.235Z] [4-02] Bad SQL Query!
+[2019-06-24T18:11:15.235Z] [1-03] INCOMING REQUEST : {"method":"","procedure":"SP_LoginGetSalt","param":{"username":"Capt.Pie"}}
+[2019-06-24T18:11:15.235Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:12:41.800Z] [1-02] Client Disconnected!
+[2019-06-24T18:12:41.988Z] [1-01] Client Connected!
+[2019-06-24T18:12:43.004Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:12:43.004Z] [4-02] Bad SQL Query!
+[2019-06-24T18:12:43.004Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:12:43.004Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:14:30.254Z] [1-02] Client Disconnected!
+[2019-06-24T18:14:30.421Z] [1-01] Client Connected!
+[2019-06-24T18:14:30.437Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:14:30.438Z] [4-02] Bad SQL Query!
+[2019-06-24T18:14:30.438Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:14:30.438Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:17:21.349Z] [2-02] Listening on Port: 4711
+[2019-06-24T18:17:21.349Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T18:17:21.435Z] [3-01] MySQL Service is Offline!
+[2019-06-24T18:17:26.281Z] [1-01] Client Connected!
+[2019-06-24T18:17:44.536Z] [1-02] Client Disconnected!
+[2019-06-24T18:17:44.692Z] [1-01] Client Connected!
+[2019-06-24T18:17:44.709Z] [4-01] MySQL Service is not available!
+[2019-06-24T18:17:44.709Z] [4-02] Bad SQL Query!
+[2019-06-24T18:17:44.710Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:17:44.710Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:28:11.659Z] [1-02] Client Disconnected!
+[2019-06-24T18:28:11.840Z] [1-01] Client Connected!
+[2019-06-24T18:28:11.859Z] [4-02] Bad SQL Query!
+[2019-06-24T18:28:11.859Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:28:11.859Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:28:49.906Z] [2-02] Listening on Port: 4711
+[2019-06-24T18:28:49.907Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T18:28:49.991Z] [2-01] MySQL Service is Online!
+[2019-06-24T18:28:50.966Z] [1-01] Client Connected!
+[2019-06-24T18:28:57.952Z] [1-02] Client Disconnected!
+[2019-06-24T18:28:58.129Z] [1-01] Client Connected!
+[2019-06-24T18:28:58.151Z] [4-02] Bad SQL Query!
+[2019-06-24T18:28:58.151Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:28:58.151Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:29:14.854Z] [1-02] Client Disconnected!
+[2019-06-24T18:29:15.018Z] [1-01] Client Connected!
+[2019-06-24T18:29:15.038Z] [4-02] Bad SQL Query!
+[2019-06-24T18:29:15.038Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:29:15.038Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:29:27.237Z] [2-02] Listening on Port: 4711
+[2019-06-24T18:29:27.238Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T18:29:27.322Z] [2-01] MySQL Service is Online!
+[2019-06-24T18:29:27.666Z] [1-01] Client Connected!
+[2019-06-24T18:29:32.919Z] [1-02] Client Disconnected!
+[2019-06-24T18:29:33.080Z] [1-01] Client Connected!
+[2019-06-24T18:29:33.100Z] [4-02] Bad SQL Query!
+[2019-06-24T18:29:33.100Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T18:29:33.100Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T18:32:35.344Z] [1-02] Client Disconnected!
+[2019-06-24T18:32:35.510Z] [1-01] Client Connected!
+[2019-06-24T18:32:35.528Z] [4-02] Bad SQL Query!
+[2019-06-24T18:32:35.528Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"visitor","hashed_password":"123"}}
+[2019-06-24T18:32:35.528Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:00:34.340Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:00:34.340Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:00:34.428Z] [2-01] MySQL Service is Online!
+[2019-06-24T19:00:36.129Z] [1-01] Client Connected!
+[2019-06-24T19:00:47.190Z] [1-02] Client Disconnected!
+[2019-06-24T19:00:47.365Z] [1-01] Client Connected!
+[2019-06-24T19:00:47.386Z] [4-02] Bad SQL Query!
+[2019-06-24T19:00:47.386Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:00:47.386Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:02:31.453Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:02:31.454Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:02:31.591Z] [2-01] MySQL Service is Online!
+[2019-06-24T19:02:32.226Z] [1-01] Client Connected!
+[2019-06-24T19:03:24.632Z] [1-02] Client Disconnected!
+[2019-06-24T19:03:24.817Z] [1-01] Client Connected!
+[2019-06-24T19:03:24.839Z] [4-02] Bad SQL Query!
+[2019-06-24T19:03:24.839Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:03:24.839Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:03:47.731Z] [1-02] Client Disconnected!
+[2019-06-24T19:05:32.735Z] [1-01] Client Connected!
+[2019-06-24T19:05:32.757Z] [4-02] Bad SQL Query!
+[2019-06-24T19:05:32.757Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:05:32.757Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:05:43.644Z] [1-01] Client Connected!
+[2019-06-24T19:05:43.705Z] [4-02] Bad SQL Query!
+[2019-06-24T19:05:43.705Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:05:43.706Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:06:02.753Z] [1-02] Client Disconnected!
+[2019-06-24T19:06:13.702Z] [1-02] Client Disconnected!
+[2019-06-24T19:06:15.204Z] [1-01] Client Connected!
+[2019-06-24T19:07:26.253Z] [1-02] Client Disconnected!
+[2019-06-24T19:07:26.528Z] [1-01] Client Connected!
+[2019-06-24T19:07:26.554Z] [4-02] Bad SQL Query!
+[2019-06-24T19:07:26.554Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:07:26.554Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:07:31.554Z] [1-01] Client Connected!
+[2019-06-24T19:07:31.571Z] [4-02] Bad SQL Query!
+[2019-06-24T19:07:31.572Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:07:31.572Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:07:33.964Z] [1-01] Client Connected!
+[2019-06-24T19:07:33.981Z] [4-02] Bad SQL Query!
+[2019-06-24T19:07:33.981Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:07:33.981Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:07:35.023Z] [1-01] Client Connected!
+[2019-06-24T19:07:35.058Z] [4-02] Bad SQL Query!
+[2019-06-24T19:07:35.058Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:07:35.058Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:07:39.847Z] [1-01] Client Connected!
+[2019-06-24T19:07:39.881Z] [4-02] Bad SQL Query!
+[2019-06-24T19:07:39.882Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:07:39.882Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:07:56.553Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:01.568Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:03.978Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:05.055Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:09.877Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:10.456Z] [1-01] Client Connected!
+[2019-06-24T19:08:53.490Z] [1-02] Client Disconnected!
+[2019-06-24T19:08:53.668Z] [1-01] Client Connected!
+[2019-06-24T19:08:53.734Z] [4-02] Bad SQL Query!
+[2019-06-24T19:08:53.734Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:08:53.734Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:09:23.732Z] [1-02] Client Disconnected!
+[2019-06-24T19:09:27.113Z] [1-01] Client Connected!
+[2019-06-24T19:24:41.393Z] [1-01] Client Connected!
+[2019-06-24T19:24:41.409Z] [4-02] Bad SQL Query!
+[2019-06-24T19:24:41.409Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:24:41.409Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:25:11.407Z] [1-02] Client Disconnected!
+[2019-06-24T19:25:13.118Z] [1-01] Client Connected!
+[2019-06-24T19:30:36.492Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:30:36.492Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:30:36.609Z] [2-01] MySQL Service is Online!
+[2019-06-24T19:30:37.132Z] [1-01] Client Connected!
+[2019-06-24T19:30:37.134Z] [1-01] Client Connected!
+[2019-06-24T19:31:23.261Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:31:23.262Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:31:23.348Z] [2-01] MySQL Service is Online!
+[2019-06-24T19:31:24.146Z] [1-01] Client Connected!
+[2019-06-24T19:31:25.112Z] [1-01] Client Connected!
+[2019-06-24T19:37:02.736Z] [1-02] Client Disconnected!
+[2019-06-24T19:37:02.931Z] [1-01] Client Connected!
+[2019-06-24T19:37:02.994Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:02.994Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:02.994Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:06.493Z] [1-01] Client Connected!
+[2019-06-24T19:37:06.508Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:06.508Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:06.508Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:19.367Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:37:19.367Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:37:19.453Z] [2-01] MySQL Service is Online!
+[2019-06-24T19:37:20.138Z] [1-01] Client Connected!
+[2019-06-24T19:37:22.829Z] [1-01] Client Connected!
+[2019-06-24T19:37:22.858Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:22.858Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:22.858Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:24.532Z] [1-01] Client Connected!
+[2019-06-24T19:37:24.602Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:24.602Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:24.602Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:25.401Z] [1-01] Client Connected!
+[2019-06-24T19:37:25.418Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:25.418Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:25.418Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:35.302Z] [1-01] Client Connected!
+[2019-06-24T19:37:35.322Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:35.322Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:35.323Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:37:45.014Z] [1-01] Client Connected!
+[2019-06-24T19:37:45.041Z] [4-02] Bad SQL Query!
+[2019-06-24T19:37:45.041Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:37:45.041Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:38:19.865Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:38:19.865Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:38:19.963Z] [1-01] Client Connected!
+[2019-06-24T19:38:20.949Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:38:23.242Z] [1-01] Client Connected!
+[2019-06-24T19:38:24.275Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:38:24.276Z] [4-02] Bad SQL Query!
+[2019-06-24T19:38:24.276Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:38:24.276Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:38:55.371Z] [1-02] Client Disconnected!
+[2019-06-24T19:40:13.073Z] [1-01] Client Connected!
+[2019-06-24T19:40:14.101Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:40:14.101Z] [4-02] Bad SQL Query!
+[2019-06-24T19:40:14.101Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:40:14.101Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:40:56.475Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:40:56.476Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:40:56.893Z] [1-01] Client Connected!
+[2019-06-24T19:40:57.575Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:40:58.111Z] [1-01] Client Connected!
+[2019-06-24T19:41:16.586Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:41:16.587Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:41:17.129Z] [1-01] Client Connected!
+[2019-06-24T19:41:17.367Z] [1-01] Client Connected!
+[2019-06-24T19:41:17.405Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:17.599Z] [1-01] Client Connected!
+[2019-06-24T19:41:17.675Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:41:18.667Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:18.667Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:18.667Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:18.667Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:41:26.001Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:41:26.002Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:41:27.073Z] [1-01] Client Connected!
+[2019-06-24T19:41:27.090Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:41:27.114Z] [1-01] Client Connected!
+[2019-06-24T19:41:29.619Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:29.795Z] [1-01] Client Connected!
+[2019-06-24T19:41:30.869Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:30.869Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:30.869Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:30.869Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:41:32.233Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:32.397Z] [1-01] Client Connected!
+[2019-06-24T19:41:32.917Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:33.064Z] [1-01] Client Connected!
+[2019-06-24T19:41:33.108Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:33.282Z] [1-01] Client Connected!
+[2019-06-24T19:41:33.400Z] [1-02] Client Disconnected!
+[2019-06-24T19:41:33.430Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:33.430Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:33.430Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:33.430Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:41:33.575Z] [1-01] Client Connected!
+[2019-06-24T19:41:34.084Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:34.084Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:34.084Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:34.084Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:41:34.398Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:34.398Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:34.398Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:34.398Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:41:34.596Z] [4-01] MySQL Service is not available!
+[2019-06-24T19:41:34.597Z] [4-02] Bad SQL Query!
+[2019-06-24T19:41:34.597Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T19:41:34.597Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T19:42:03.397Z] [1-02] Client Disconnected!
+[2019-06-24T19:44:12.916Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:44:12.917Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:44:13.129Z] [1-01] Client Connected!
+[2019-06-24T19:44:14.147Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:44:14.148Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:44:15.133Z] [1-01] Client Connected!
+[2019-06-24T19:44:15.241Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:45:29.960Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:45:29.961Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:45:31.052Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:45:31.129Z] [1-01] Client Connected!
+[2019-06-24T19:46:57.943Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:46:57.944Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:46:59.031Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:46:59.131Z] [1-01] Client Connected!
+[2019-06-24T19:47:25.865Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:47:25.865Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:47:26.950Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:47:27.129Z] [1-01] Client Connected!
+[2019-06-24T19:51:44.095Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:51:44.096Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:51:45.134Z] [1-01] Client Connected!
+[2019-06-24T19:51:45.203Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:52:01.424Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:52:01.424Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:52:02.132Z] [1-01] Client Connected!
+[2019-06-24T19:52:02.517Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:52:44.829Z] [2-02] Listening on Port: 4711
+[2019-06-24T19:52:44.829Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T19:52:45.940Z] [3-01] MySQL Service is Offline!
+[2019-06-24T19:52:46.120Z] [1-01] Client Connected!
+[2019-06-24T20:07:08.184Z] [1-01] Client Connected!
+[2019-06-24T20:07:09.208Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:07:09.209Z] [4-02] Bad SQL Query!
+[2019-06-24T20:07:09.209Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:07:09.209Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:07:40.977Z] [1-02] Client Disconnected!
+[2019-06-24T20:07:56.390Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:07:56.390Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:07:57.127Z] [1-01] Client Connected!
+[2019-06-24T20:07:57.485Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:09:08.176Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:09:08.176Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:09:09.131Z] [1-01] Client Connected!
+[2019-06-24T20:09:09.272Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:09:58.679Z] [1-01] Client Connected!
+[2019-06-24T20:09:59.709Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:09:59.709Z] [4-02] Bad SQL Query!
+[2019-06-24T20:09:59.709Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:09:59.709Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:10:25.986Z] [1-02] Client Disconnected!
+[2019-06-24T20:10:26.172Z] [1-01] Client Connected!
+[2019-06-24T20:10:27.238Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:10:27.238Z] [4-02] Bad SQL Query!
+[2019-06-24T20:10:27.238Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:10:27.239Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:11:19.117Z] [1-02] Client Disconnected!
+[2019-06-24T20:11:19.301Z] [1-01] Client Connected!
+[2019-06-24T20:11:19.985Z] [1-02] Client Disconnected!
+[2019-06-24T20:11:20.139Z] [1-01] Client Connected!
+[2019-06-24T20:11:20.374Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:11:20.374Z] [4-02] Bad SQL Query!
+[2019-06-24T20:11:20.374Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:11:20.374Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:11:21.209Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:11:21.209Z] [4-02] Bad SQL Query!
+[2019-06-24T20:11:21.209Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:11:21.209Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:11:23.462Z] [1-02] Client Disconnected!
+[2019-06-24T20:11:23.624Z] [1-01] Client Connected!
+[2019-06-24T20:11:24.656Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:11:24.656Z] [4-02] Bad SQL Query!
+[2019-06-24T20:11:24.656Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:11:24.656Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:11:25.697Z] [1-02] Client Disconnected!
+[2019-06-24T20:11:25.915Z] [1-01] Client Connected!
+[2019-06-24T20:11:26.928Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:11:26.928Z] [4-02] Bad SQL Query!
+[2019-06-24T20:11:26.928Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:11:26.928Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:13:04.454Z] [1-02] Client Disconnected!
+[2019-06-24T20:13:04.661Z] [1-01] Client Connected!
+[2019-06-24T20:13:05.723Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:13:05.723Z] [4-02] Bad SQL Query!
+[2019-06-24T20:13:05.724Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:13:05.724Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:13:26.139Z] [1-02] Client Disconnected!
+[2019-06-24T20:13:26.319Z] [1-01] Client Connected!
+[2019-06-24T20:13:27.385Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:13:27.385Z] [4-02] Bad SQL Query!
+[2019-06-24T20:13:27.385Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:13:27.385Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:13:27.668Z] [1-02] Client Disconnected!
+[2019-06-24T20:13:28.133Z] [1-01] Client Connected!
+[2019-06-24T20:13:29.151Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:13:29.151Z] [4-02] Bad SQL Query!
+[2019-06-24T20:13:29.152Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:13:29.152Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:13:34.649Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:13:34.650Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:13:35.410Z] [1-01] Client Connected!
+[2019-06-24T20:13:35.742Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:13:36.112Z] [1-01] Client Connected!
+[2019-06-24T20:13:37.737Z] [1-02] Client Disconnected!
+[2019-06-24T20:13:37.951Z] [1-01] Client Connected!
+[2019-06-24T20:13:38.976Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:13:38.976Z] [4-02] Bad SQL Query!
+[2019-06-24T20:13:38.976Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:13:38.976Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:16:05.003Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:16:05.003Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:16:06.096Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:16:06.134Z] [1-01] Client Connected!
+[2019-06-24T20:16:06.137Z] [1-01] Client Connected!
+[2019-06-24T20:36:06.107Z] [1-02] Client Disconnected!
+[2019-06-24T20:36:06.334Z] [1-01] Client Connected!
+[2019-06-24T20:36:07.360Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:36:07.360Z] [4-02] Bad SQL Query!
+[2019-06-24T20:36:07.360Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:36:07.360Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:36:55.901Z] [1-02] Client Disconnected!
+[2019-06-24T20:36:56.103Z] [1-01] Client Connected!
+[2019-06-24T20:36:57.167Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:36:57.167Z] [4-02] Bad SQL Query!
+[2019-06-24T20:36:57.168Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:36:57.168Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:37:45.043Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:37:45.044Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:37:45.608Z] [1-01] Client Connected!
+[2019-06-24T20:37:46.341Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:37:46.342Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:37:46.448Z] [1-01] Client Connected!
+[2019-06-24T20:37:46.466Z] [1-01] Client Connected!
+[2019-06-24T20:37:47.454Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:38:26.510Z] [1-02] Client Disconnected!
+[2019-06-24T20:38:26.688Z] [1-01] Client Connected!
+[2019-06-24T20:38:27.764Z] [1-02] Client Disconnected!
+[2019-06-24T20:38:27.765Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:38:27.766Z] [4-02] Bad SQL Query!
+[2019-06-24T20:38:27.766Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:38:27.766Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:38:27.913Z] [1-01] Client Connected!
+[2019-06-24T20:38:28.984Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:38:28.984Z] [4-02] Bad SQL Query!
+[2019-06-24T20:38:28.985Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:38:28.985Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:12.391Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:12.606Z] [1-01] Client Connected!
+[2019-06-24T20:39:13.621Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:13.622Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:13.622Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:13.622Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:14.784Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:14.920Z] [1-01] Client Connected!
+[2019-06-24T20:39:15.944Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:15.944Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:15.944Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:15.944Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:17.237Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:17.384Z] [1-01] Client Connected!
+[2019-06-24T20:39:18.414Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:18.414Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:18.415Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:18.415Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:25.251Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:25.475Z] [1-01] Client Connected!
+[2019-06-24T20:39:26.492Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:26.492Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:26.492Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:26.492Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:26.781Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:26.929Z] [1-01] Client Connected!
+[2019-06-24T20:39:27.603Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:27.764Z] [1-01] Client Connected!
+[2019-06-24T20:39:27.943Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:27.943Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:27.943Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:27.943Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:28.779Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:28.779Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:28.779Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:28.779Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:39:28.962Z] [1-02] Client Disconnected!
+[2019-06-24T20:39:29.109Z] [1-01] Client Connected!
+[2019-06-24T20:39:30.127Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:39:30.127Z] [4-02] Bad SQL Query!
+[2019-06-24T20:39:30.127Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:39:30.127Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:40:52.657Z] [1-02] Client Disconnected!
+[2019-06-24T20:40:52.871Z] [1-01] Client Connected!
+[2019-06-24T20:40:53.887Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:40:53.887Z] [4-02] Bad SQL Query!
+[2019-06-24T20:40:53.887Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:40:53.887Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:42:50.674Z] [1-02] Client Disconnected!
+[2019-06-24T20:42:50.888Z] [1-01] Client Connected!
+[2019-06-24T20:42:51.905Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:42:51.905Z] [4-02] Bad SQL Query!
+[2019-06-24T20:42:51.905Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:42:51.905Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:43:25.546Z] [1-02] Client Disconnected!
+[2019-06-24T20:43:25.758Z] [1-01] Client Connected!
+[2019-06-24T20:43:26.774Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:43:26.774Z] [4-02] Bad SQL Query!
+[2019-06-24T20:43:26.774Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:43:26.775Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:43:28.401Z] [1-02] Client Disconnected!
+[2019-06-24T20:43:28.557Z] [1-01] Client Connected!
+[2019-06-24T20:43:29.587Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:43:29.587Z] [4-02] Bad SQL Query!
+[2019-06-24T20:43:29.587Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:43:29.588Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:45:14.806Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:45:14.807Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:45:15.234Z] [1-01] Client Connected!
+[2019-06-24T20:45:16.304Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:45:16.305Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:45:16.406Z] [1-01] Client Connected!
+[2019-06-24T20:45:16.538Z] [1-01] Client Connected!
+[2019-06-24T20:45:17.412Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:45:35.680Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:45:35.680Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:45:35.924Z] [1-01] Client Connected!
+[2019-06-24T20:45:36.113Z] [1-01] Client Connected!
+[2019-06-24T20:45:36.779Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:46:53.128Z] [1-02] Client Disconnected!
+[2019-06-24T20:46:53.307Z] [1-01] Client Connected!
+[2019-06-24T20:46:54.341Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:46:54.341Z] [4-02] Bad SQL Query!
+[2019-06-24T20:46:54.341Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:46:54.341Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:03.547Z] [1-02] Client Disconnected!
+[2019-06-24T20:47:03.872Z] [1-01] Client Connected!
+[2019-06-24T20:47:04.889Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:04.890Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:04.890Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:04.890Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:06.695Z] [1-02] Client Disconnected!
+[2019-06-24T20:47:06.876Z] [1-01] Client Connected!
+[2019-06-24T20:47:07.891Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:07.891Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:07.891Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:07.892Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:09.304Z] [1-02] Client Disconnected!
+[2019-06-24T20:47:09.466Z] [1-01] Client Connected!
+[2019-06-24T20:47:10.485Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:10.485Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:10.486Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:10.486Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:31.515Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:47:31.516Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:47:32.133Z] [1-01] Client Connected!
+[2019-06-24T20:47:32.376Z] [1-01] Client Connected!
+[2019-06-24T20:47:32.630Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:47:33.398Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:33.399Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:33.399Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:33.399Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:33.823Z] [1-02] Client Disconnected!
+[2019-06-24T20:47:33.971Z] [1-01] Client Connected!
+[2019-06-24T20:47:34.989Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:34.989Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:34.989Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:34.989Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:41.580Z] [1-02] Client Disconnected!
+[2019-06-24T20:47:41.775Z] [1-01] Client Connected!
+[2019-06-24T20:47:42.800Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:42.800Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:42.800Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:42.800Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:47.382Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:47:47.382Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:47:47.966Z] [1-01] Client Connected!
+[2019-06-24T20:47:48.112Z] [1-01] Client Connected!
+[2019-06-24T20:47:48.471Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:47:48.995Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:47:48.996Z] [4-02] Bad SQL Query!
+[2019-06-24T20:47:48.996Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:47:48.996Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:47:52.346Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:47:52.347Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:47:52.972Z] [1-01] Client Connected!
+[2019-06-24T20:47:53.112Z] [1-01] Client Connected!
+[2019-06-24T20:47:53.446Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:50:08.694Z] [1-02] Client Disconnected!
+[2019-06-24T20:50:08.969Z] [1-01] Client Connected!
+[2019-06-24T20:50:09.999Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:50:09.999Z] [4-02] Bad SQL Query!
+[2019-06-24T20:50:10.000Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:50:10.000Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:51:46.136Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:51:46.137Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:51:47.127Z] [1-01] Client Connected!
+[2019-06-24T20:51:47.129Z] [1-01] Client Connected!
+[2019-06-24T20:51:47.221Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:51:52.238Z] [2-02] Listening on Port: 4711
+[2019-06-24T20:51:52.238Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T20:51:53.133Z] [1-01] Client Connected!
+[2019-06-24T20:51:53.152Z] [1-01] Client Connected!
+[2019-06-24T20:51:53.326Z] [3-01] MySQL Service is Offline!
+[2019-06-24T20:51:57.689Z] [1-02] Client Disconnected!
+[2019-06-24T20:51:57.974Z] [1-01] Client Connected!
+[2019-06-24T20:51:59.011Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:51:59.012Z] [4-02] Bad SQL Query!
+[2019-06-24T20:51:59.012Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:51:59.012Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:54:51.503Z] [1-02] Client Disconnected!
+[2019-06-24T20:54:51.729Z] [1-01] Client Connected!
+[2019-06-24T20:54:52.756Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:54:52.756Z] [4-02] Bad SQL Query!
+[2019-06-24T20:54:52.757Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:54:52.757Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:11.346Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:11.540Z] [1-01] Client Connected!
+[2019-06-24T20:55:12.597Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:12.598Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:12.598Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:12.598Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:13.432Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:13.580Z] [1-01] Client Connected!
+[2019-06-24T20:55:14.608Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:14.609Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:14.609Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:14.609Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:14.842Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:14.990Z] [1-01] Client Connected!
+[2019-06-24T20:55:15.983Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:16.091Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:16.092Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:16.092Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:16.092Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:16.126Z] [1-01] Client Connected!
+[2019-06-24T20:55:16.711Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:16.872Z] [1-01] Client Connected!
+[2019-06-24T20:55:17.144Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:17.144Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:17.145Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:17.145Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:17.887Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:17.887Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:17.887Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:17.887Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:18.938Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:19.103Z] [1-01] Client Connected!
+[2019-06-24T20:55:19.735Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:19.892Z] [1-01] Client Connected!
+[2019-06-24T20:55:20.123Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:20.123Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:20.123Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:20.123Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:20.522Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:20.671Z] [1-01] Client Connected!
+[2019-06-24T20:55:20.909Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:20.909Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:20.910Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:20.910Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:21.687Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:21.699Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:21.699Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:21.699Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:21.699Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:21.835Z] [1-01] Client Connected!
+[2019-06-24T20:55:22.775Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:22.852Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:22.852Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:22.852Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:22.852Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:22.908Z] [1-01] Client Connected!
+[2019-06-24T20:55:23.758Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:23.912Z] [1-01] Client Connected!
+[2019-06-24T20:55:23.937Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:23.937Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:23.937Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:23.937Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:24.927Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:24.928Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:24.928Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:24.928Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:55:25.440Z] [1-02] Client Disconnected!
+[2019-06-24T20:55:25.605Z] [1-01] Client Connected!
+[2019-06-24T20:55:26.625Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:55:26.625Z] [4-02] Bad SQL Query!
+[2019-06-24T20:55:26.625Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:55:26.625Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:38.587Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:38.739Z] [1-01] Client Connected!
+[2019-06-24T20:56:39.756Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:39.756Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:39.756Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:39.756Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:39.875Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:40.044Z] [1-01] Client Connected!
+[2019-06-24T20:56:40.824Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:40.934Z] [1-01] Client Connected!
+[2019-06-24T20:56:41.061Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:41.061Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:41.061Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:41.061Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:41.962Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:41.963Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:41.963Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:41.963Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:42.552Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:42.709Z] [1-01] Client Connected!
+[2019-06-24T20:56:43.561Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:43.673Z] [1-01] Client Connected!
+[2019-06-24T20:56:43.728Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:43.728Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:43.728Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:43.728Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:44.697Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:44.697Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:44.698Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:44.698Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:56:44.774Z] [1-02] Client Disconnected!
+[2019-06-24T20:56:44.952Z] [1-01] Client Connected!
+[2019-06-24T20:56:45.976Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:56:45.976Z] [4-02] Bad SQL Query!
+[2019-06-24T20:56:45.977Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:56:45.977Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:57:09.962Z] [1-02] Client Disconnected!
+[2019-06-24T20:57:10.178Z] [1-01] Client Connected!
+[2019-06-24T20:57:11.198Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:57:11.199Z] [4-02] Bad SQL Query!
+[2019-06-24T20:57:11.199Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:57:11.199Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:57:15.790Z] [1-02] Client Disconnected!
+[2019-06-24T20:57:15.951Z] [1-01] Client Connected!
+[2019-06-24T20:57:16.968Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:57:16.968Z] [4-02] Bad SQL Query!
+[2019-06-24T20:57:16.968Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:57:16.969Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:57:26.713Z] [1-02] Client Disconnected!
+[2019-06-24T20:57:26.928Z] [1-01] Client Connected!
+[2019-06-24T20:57:27.946Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:57:27.947Z] [4-02] Bad SQL Query!
+[2019-06-24T20:57:27.947Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:57:27.947Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:57:39.999Z] [1-02] Client Disconnected!
+[2019-06-24T20:57:40.251Z] [1-01] Client Connected!
+[2019-06-24T20:57:41.291Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:57:41.291Z] [4-02] Bad SQL Query!
+[2019-06-24T20:57:41.291Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:57:41.292Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T20:59:24.080Z] [1-01] Client Connected!
+[2019-06-24T20:59:25.115Z] [4-01] MySQL Service is not available!
+[2019-06-24T20:59:25.116Z] [4-02] Bad SQL Query!
+[2019-06-24T20:59:25.116Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T20:59:25.116Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:03:24.277Z] [1-02] Client Disconnected!
+[2019-06-24T21:03:24.519Z] [1-01] Client Connected!
+[2019-06-24T21:03:25.575Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:03:25.575Z] [4-02] Bad SQL Query!
+[2019-06-24T21:03:25.575Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:03:25.575Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:03:32.709Z] [1-02] Client Disconnected!
+[2019-06-24T21:03:32.935Z] [1-01] Client Connected!
+[2019-06-24T21:03:33.961Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:03:33.961Z] [4-02] Bad SQL Query!
+[2019-06-24T21:03:33.961Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:03:33.961Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:03:36.873Z] [1-02] Client Disconnected!
+[2019-06-24T21:03:37.074Z] [1-01] Client Connected!
+[2019-06-24T21:03:38.092Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:03:38.093Z] [4-02] Bad SQL Query!
+[2019-06-24T21:03:38.093Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:03:38.093Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:03:41.779Z] [2-02] Listening on Port: 4711
+[2019-06-24T21:03:41.780Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-24T21:03:42.130Z] [1-01] Client Connected!
+[2019-06-24T21:03:42.210Z] [1-01] Client Connected!
+[2019-06-24T21:03:42.819Z] [1-01] Client Connected!
+[2019-06-24T21:03:42.869Z] [3-01] MySQL Service is Offline!
+[2019-06-24T21:03:45.966Z] [1-02] Client Disconnected!
+[2019-06-24T21:03:46.136Z] [1-01] Client Connected!
+[2019-06-24T21:03:47.158Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:03:47.158Z] [4-02] Bad SQL Query!
+[2019-06-24T21:03:47.158Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:03:47.158Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:03:52.556Z] [1-02] Client Disconnected!
+[2019-06-24T21:03:52.681Z] [1-01] Client Connected!
+[2019-06-24T21:03:53.713Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:03:53.713Z] [4-02] Bad SQL Query!
+[2019-06-24T21:03:53.713Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:03:53.713Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-24T21:04:00.965Z] [1-02] Client Disconnected!
+[2019-06-24T21:04:01.101Z] [1-01] Client Connected!
+[2019-06-24T21:04:02.135Z] [4-01] MySQL Service is not available!
+[2019-06-24T21:04:02.135Z] [4-02] Bad SQL Query!
+[2019-06-24T21:04:02.135Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-24T21:04:02.135Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-01","level":"ERROR","name":"MySQL Service is not available!","occurrence":"SQLHandler.SP_Dispatcher(string)"},{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T20:13:58.495Z] [2-02] Listening on Port: 4711
+[2019-06-25T20:13:58.496Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T20:13:58.995Z] [2-01] MySQL Service is Online!
+[2019-06-25T20:14:05.358Z] [1-01] Client Connected!
+[2019-06-25T20:14:05.417Z] [4-02] Bad SQL Query!
+[2019-06-25T20:14:05.417Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T20:14:05.417Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T20:14:35.400Z] [1-02] Client Disconnected!
+[2019-06-25T20:14:39.158Z] [1-01] Client Connected!
+[2019-06-25T20:44:32.230Z] [2-02] Listening on Port: 4711
+[2019-06-25T20:44:32.231Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T20:44:32.380Z] [2-01] MySQL Service is Online!
+[2019-06-25T20:44:33.169Z] [1-01] Client Connected!
+[2019-06-25T21:40:27.216Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:40:27.222Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:40:27.515Z] [3-01] MySQL Service is Offline!
+[2019-06-25T21:41:59.891Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:41:59.892Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:41:59.926Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:42:09.081Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:42:09.081Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:42:17.188Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:42:17.188Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:42:31.590Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:42:31.590Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:42:31.606Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:45:58.451Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:45:58.452Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:45:58.474Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:47:52.558Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:47:52.559Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:47:52.575Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:48:23.396Z] [1-01] Client Connected!
+[2019-06-25T21:48:23.434Z] [4-02] Bad SQL Query!
+[2019-06-25T21:48:23.434Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T21:48:23.434Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T21:48:53.426Z] [1-02] Client Disconnected!
+[2019-06-25T21:49:03.846Z] [1-01] Client Connected!
+[2019-06-25T21:49:03.870Z] [4-02] Bad SQL Query!
+[2019-06-25T21:49:03.870Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T21:49:03.870Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T21:49:33.867Z] [1-02] Client Disconnected!
+[2019-06-25T21:49:35.156Z] [1-01] Client Connected!
+[2019-06-25T21:53:41.557Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:53:41.558Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:53:41.573Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:53:43.058Z] [1-01] Client Connected!
+[2019-06-25T21:53:43.777Z] [1-02] Client Disconnected!
+[2019-06-25T21:53:44.053Z] [1-01] Client Connected!
+[2019-06-25T21:53:44.078Z] [4-02] Bad SQL Query!
+[2019-06-25T21:53:44.079Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T21:53:44.079Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T21:54:14.074Z] [1-02] Client Disconnected!
+[2019-06-25T21:54:15.131Z] [1-01] Client Connected!
+[2019-06-25T21:56:06.965Z] [1-02] Client Disconnected!
+[2019-06-25T21:56:39.560Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:56:39.560Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:56:39.579Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:56:46.578Z] [1-01] Client Connected!
+[2019-06-25T21:56:46.614Z] [4-02] Bad SQL Query!
+[2019-06-25T21:56:46.615Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T21:56:46.615Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T21:57:10.977Z] [2-02] Listening on Port: 4711
+[2019-06-25T21:57:10.977Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T21:57:10.991Z] [2-01] MySQL Service is Online!
+[2019-06-25T21:57:18.125Z] [1-01] Client Connected!
+[2019-06-25T22:02:22.002Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:02:22.002Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:02:22.019Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:02:23.167Z] [1-01] Client Connected!
+[2019-06-25T22:02:25.661Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:02:25.661Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:02:25.677Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:02:27.168Z] [1-01] Client Connected!
+[2019-06-25T22:02:32.392Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:02:32.392Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:02:32.409Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:02:33.170Z] [1-01] Client Connected!
+[2019-06-25T22:03:59.931Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:03:59.932Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:03:59.947Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:04:01.166Z] [1-01] Client Connected!
+[2019-06-25T22:04:06.821Z] [1-02] Client Disconnected!
+[2019-06-25T22:04:32.455Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:04:32.455Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:04:32.472Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:04:33.435Z] [1-01] Client Connected!
+[2019-06-25T22:04:33.459Z] [4-02] Bad SQL Query!
+[2019-06-25T22:04:33.459Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:04:33.460Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:05:03.454Z] [1-02] Client Disconnected!
+[2019-06-25T22:05:06.158Z] [1-01] Client Connected!
+[2019-06-25T22:08:08.844Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:08:08.845Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:08:08.862Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:08:11.155Z] [1-01] Client Connected!
+[2019-06-25T22:08:11.190Z] [4-02] Bad SQL Query!
+[2019-06-25T22:08:11.191Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:08:11.191Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:08:41.184Z] [1-02] Client Disconnected!
+[2019-06-25T22:08:44.176Z] [1-01] Client Connected!
+[2019-06-25T22:10:41.383Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:10:41.384Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:10:41.401Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:10:43.169Z] [1-01] Client Connected!
+[2019-06-25T22:10:46.557Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:10:46.557Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:10:46.573Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:10:47.168Z] [1-01] Client Connected!
+[2019-06-25T22:10:48.053Z] [1-02] Client Disconnected!
+[2019-06-25T22:10:48.332Z] [1-01] Client Connected!
+[2019-06-25T22:10:48.356Z] [4-02] Bad SQL Query!
+[2019-06-25T22:10:48.356Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:10:48.356Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:10:49.255Z] [1-01] Client Connected!
+[2019-06-25T22:10:49.278Z] [4-02] Bad SQL Query!
+[2019-06-25T22:10:49.278Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:10:49.278Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:11:18.351Z] [1-02] Client Disconnected!
+[2019-06-25T22:11:19.272Z] [1-02] Client Disconnected!
+[2019-06-25T22:11:20.776Z] [1-01] Client Connected!
+[2019-06-25T22:14:16.391Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:14:16.391Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:14:16.408Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:14:18.171Z] [1-01] Client Connected!
+[2019-06-25T22:14:29.285Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:14:29.286Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:14:29.302Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:14:30.167Z] [1-01] Client Connected!
+[2019-06-25T22:14:36.592Z] [1-02] Client Disconnected!
+[2019-06-25T22:14:36.858Z] [1-01] Client Connected!
+[2019-06-25T22:14:36.883Z] [4-02] Bad SQL Query!
+[2019-06-25T22:14:36.883Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:14:36.883Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:15:06.878Z] [1-02] Client Disconnected!
+[2019-06-25T22:15:08.075Z] [1-01] Client Connected!
+[2019-06-25T22:15:41.235Z] [1-02] Client Disconnected!
+[2019-06-25T22:16:12.091Z] [1-01] Client Connected!
+[2019-06-25T22:16:12.112Z] [4-02] Bad SQL Query!
+[2019-06-25T22:16:12.112Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:16:12.112Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:16:18.561Z] [1-01] Client Connected!
+[2019-06-25T22:16:18.584Z] [4-02] Bad SQL Query!
+[2019-06-25T22:16:18.585Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:16:18.585Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:16:42.110Z] [1-02] Client Disconnected!
+[2019-06-25T22:16:48.577Z] [1-02] Client Disconnected!
+[2019-06-25T22:16:49.669Z] [1-01] Client Connected!
+[2019-06-25T22:17:52.790Z] [1-02] Client Disconnected!
+[2019-06-25T22:17:53.030Z] [1-01] Client Connected!
+[2019-06-25T22:17:53.058Z] [4-02] Bad SQL Query!
+[2019-06-25T22:17:53.058Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:17:53.058Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:18:23.055Z] [1-02] Client Disconnected!
+[2019-06-25T22:18:23.658Z] [1-01] Client Connected!
+[2019-06-25T22:21:35.903Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:21:35.903Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:21:35.919Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:21:36.244Z] [1-01] Client Connected!
+[2019-06-25T22:21:40.244Z] [1-02] Client Disconnected!
+[2019-06-25T22:21:40.481Z] [1-01] Client Connected!
+[2019-06-25T22:21:40.536Z] [4-02] Bad SQL Query!
+[2019-06-25T22:21:40.536Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:21:40.536Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:22:10.521Z] [1-02] Client Disconnected!
+[2019-06-25T22:22:11.406Z] [1-01] Client Connected!
+[2019-06-25T22:26:46.225Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:26:46.226Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:26:46.248Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:26:46.265Z] [1-01] Client Connected!
+[2019-06-25T22:26:47.715Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:26:47.716Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:26:47.731Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:26:48.647Z] [1-01] Client Connected!
+[2019-06-25T22:26:54.080Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:26:54.081Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:26:54.097Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:26:54.337Z] [1-01] Client Connected!
+[2019-06-25T22:26:55.205Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:26:55.206Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:26:55.221Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:26:55.551Z] [1-01] Client Connected!
+[2019-06-25T22:27:27.800Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:27:27.800Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:27:27.815Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:27:53.935Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:27:53.936Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:27:53.953Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:28:06.290Z] [2-02] Listening on Port: 4711
+[2019-06-25T22:28:06.291Z] [2-03] Node Server running on Version 0.4.0, last Update on 2019-06-21
+[2019-06-25T22:28:06.309Z] [2-01] MySQL Service is Online!
+[2019-06-25T22:28:09.176Z] [1-01] Client Connected!
+[2019-06-25T22:28:09.220Z] [4-02] Bad SQL Query!
+[2019-06-25T22:28:09.220Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:28:09.221Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:28:39.201Z] [1-02] Client Disconnected!
+[2019-06-25T22:28:40.688Z] [1-01] Client Connected!
+[2019-06-25T22:31:48.545Z] [1-02] Client Disconnected!
+[2019-06-25T22:31:48.791Z] [1-01] Client Connected!
+[2019-06-25T22:31:48.839Z] [4-02] Bad SQL Query!
+[2019-06-25T22:31:48.839Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:31:48.839Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:32:18.819Z] [1-02] Client Disconnected!
+[2019-06-25T22:32:20.277Z] [1-01] Client Connected!
+[2019-06-25T22:33:03.132Z] [1-02] Client Disconnected!
+[2019-06-25T22:33:03.379Z] [1-01] Client Connected!
+[2019-06-25T22:33:03.408Z] [4-02] Bad SQL Query!
+[2019-06-25T22:33:03.408Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:33:03.408Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:33:33.404Z] [1-02] Client Disconnected!
+[2019-06-25T22:33:34.460Z] [1-01] Client Connected!
+[2019-06-25T22:34:12.547Z] [1-02] Client Disconnected!
+[2019-06-25T22:34:12.793Z] [1-01] Client Connected!
+[2019-06-25T22:34:12.826Z] [4-02] Bad SQL Query!
+[2019-06-25T22:34:12.826Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:34:12.826Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:34:42.821Z] [1-02] Client Disconnected!
+[2019-06-25T22:34:43.619Z] [1-01] Client Connected!
+[2019-06-25T22:34:49.373Z] [1-02] Client Disconnected!
+[2019-06-25T22:34:49.627Z] [1-01] Client Connected!
+[2019-06-25T22:34:49.660Z] [4-02] Bad SQL Query!
+[2019-06-25T22:34:49.661Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:34:49.661Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:35:19.654Z] [1-02] Client Disconnected!
+[2019-06-25T22:35:20.450Z] [1-01] Client Connected!
+[2019-06-25T22:35:21.237Z] [1-02] Client Disconnected!
+[2019-06-25T22:35:21.744Z] [1-01] Client Connected!
+[2019-06-25T22:35:21.785Z] [4-02] Bad SQL Query!
+[2019-06-25T22:35:21.786Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:35:21.786Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:35:51.782Z] [1-02] Client Disconnected!
+[2019-06-25T22:35:54.153Z] [1-01] Client Connected!
+[2019-06-25T22:36:11.606Z] [1-02] Client Disconnected!
+[2019-06-25T22:36:11.894Z] [1-01] Client Connected!
+[2019-06-25T22:36:11.928Z] [4-02] Bad SQL Query!
+[2019-06-25T22:36:11.929Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:36:11.929Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:36:41.926Z] [1-02] Client Disconnected!
+[2019-06-25T22:36:45.154Z] [1-01] Client Connected!
+[2019-06-25T22:36:51.329Z] [1-02] Client Disconnected!
+[2019-06-25T22:36:51.605Z] [1-01] Client Connected!
+[2019-06-25T22:36:51.638Z] [4-02] Bad SQL Query!
+[2019-06-25T22:36:51.638Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:36:51.639Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:37:15.243Z] [1-01] Client Connected!
+[2019-06-25T22:37:15.275Z] [4-02] Bad SQL Query!
+[2019-06-25T22:37:15.275Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:37:15.275Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:37:21.631Z] [1-02] Client Disconnected!
+[2019-06-25T22:37:31.137Z] [1-01] Client Connected!
+[2019-06-25T22:37:31.173Z] [4-02] Bad SQL Query!
+[2019-06-25T22:37:31.173Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:37:31.173Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:37:45.272Z] [1-02] Client Disconnected!
+[2019-06-25T22:37:56.060Z] [1-01] Client Connected!
+[2019-06-25T22:37:56.093Z] [4-02] Bad SQL Query!
+[2019-06-25T22:37:56.093Z] [1-03] INCOMING REQUEST : {"method":"LOGIN","procedure":"SP_LoginAuth","param":{"username":"Capt.Pie","hashed_password":"123"}}
+[2019-06-25T22:37:56.093Z] [1-04] OUTGOING RESPONSE: {"response":[],"error":[{"code":"4-02","level":"ERROR","name":"Bad SQL Query!","occurrence":"SQLHandler.SP_Dispatcher(string)"}]}
+[2019-06-25T22:38:01.167Z] [1-02] Client Disconnected!
+[2019-06-25T22:38:26.085Z] [1-02] Client Disconnected!
+[2019-06-25T22:38:26.850Z] [1-01] Client Connected!

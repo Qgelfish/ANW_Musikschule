@@ -7,6 +7,19 @@ const utility_1 = require("./BACK/Utility/utility");
 const sqlhandler_1 = require("./BACK/Utility/sqlhandler");
 const settings_1 = require("./BACK/Settings/settings");
 const expresshbs = require("express-handlebars");
+const mysql = require('mysql');
+const db = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'musikschule'
+});
+
+db.connect((err) => {
+    if(err) throw err;
+    console.log('mysql connected');
+});
+
 let app = pack_express();
 let http = pack_http.createServer(app);
 let io = pack_io(http);
@@ -20,7 +33,21 @@ app.set('view engine', 'handlebars');
 app.set('views', __dirname + '/FRONT/TEMPLATES/')
 
 app.get("/", (req, res) => {
-    res.render('index');
+    let sql = 'SELECT * FROM teacher';
+    db.query(
+        sql,
+        function select(err, results) {
+            console.log(results);
+            let names = [];
+            for(let i=0;i<results.length;i++){
+                names.push(results[i].firstname);
+            }
+            res.render('index', {
+                data: results,
+                names: names
+            });
+        }
+    );
 });
 app.get("/user", (req, res) => {
     res.render('user');
